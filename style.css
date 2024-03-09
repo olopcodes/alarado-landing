@@ -1,0 +1,52 @@
+:root {
+    font-family: "Poppins", sans-serif;
+    --primary-blue: #2a4dd0;
+    --primary-green: #4ca154;
+    --primary-black: #111729;
+    --dark-gray: #223344;
+    --primary-gray: #909193;
+    --off-white: #f2f9fe;
+    --white: #fff;
+    --body-font-size: 1.125rem;
+    --button-font-size: 1rem;
+    --small-font-size: .875rem;
+    --heading-large-font-size: 3.75rem;
+}
+
+body {
+    font-size: var(--body-font-size);
+    background-color: var(--off-white);
+}
+
+
+.navbar-nav {
+    margin-left: 10rem;
+}
+
+.nav-link {
+    text-transform: capitalize;
+    color: var(--primary-gray);
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    color: var(--primary-black);
+}
+
+.theme-mode-buttons {
+    background-color: var(--primary-black);
+    border-radius: 100px;
+    padding: 4px;
+}
+
+.theme-mode-buttons .btn {
+    /* padding: .5rem; */
+    height: 40px;
+
+}
+
+.btn-sunny {
+    background-color: var(--off-white);
+    border-radius: 100px;
+    border: none;
+}
