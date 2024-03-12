@@ -13,6 +13,15 @@
     --heading-large-font-size: 3.75rem;
 }
 
+#dark {
+    background-color: var(--primary-black);
+    color: var(--off-white);
+}
+
+#dark .active {
+    color: var(--off-white);
+}
+
 body {
     font-size: var(--body-font-size);
     background-color: var(--off-white);
@@ -67,6 +76,123 @@ img {
     height: 100%;
 }
 
+.banner-heading {
+    font-size: var(--heading-large-font-size);
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.banner-description {
+    color: var(--primary-gray);
+    font-size: 1.25rem;
+    max-width: 400px;
+}
+
+
+.banner .btn {
+    background-color: var(--primary-blue);
+    color: var(--off-white);
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    border: 2px solid;
+}
+
+.banner-btn {
+    border-color: var(--primary-blue) !important;
+}
+
+.banner-btn:hover {
+    background-color: var(--off-white);
+    color: var(--primary-blue);
+    border-color: var(--primary-blue);
+}
+
+.banner-link {
+    align-self: center !important;
+    all: unset;
+    font-weight: 600;
+    text-transform: capitalize;
+    background-color: transparent !important;
+    color: var(--primary-blue) !important;
+    border: 0 !important;
+    border-bottom: 3px solid !important;
+    padding: 0 !important;
+    padding-bottom: 3px !important;
+
+}
+
+.banner-link:hover {
+    border-color: transparent !important;
+}
+
+
+/* contact ============== */
+.contact {
+    padding: 4%;
+    height: 400px;
+}
+
+.contact-container {
+    background-color: var(--primary-blue) !important;
+    border-radius: 7px;
+    overflow: hidden;
+    /* padding: 3rem 1rem; */
+    color: var(--off-white);
+}
+
+.contact-form {
+    background-color: var(--primary-gray);
+}
+
+.control-label {
+    display: block !important;
+}
+
+.col-md-3 {
+    background: #ff9b00;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.contact-left {
+    background-color: var(--primary-blue);
+    height: 100%;
+}
+
+.contact-info {
+    margin-top: 10%;
+}
+
+.contact-info img {
+    margin-bottom: 15%;
+}
+
+.contact-info h2 {
+    margin-bottom: 10%;
+}
+
+.col-md-9 {
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.contact-form label {
+    font-weight: 600;
+}
+
+.contact-form button {
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+
+.contact-form button:focus {
+    box-shadow: none;
+}
 
 @media screen and (min-width: 992px) {
     .theme-mode-buttons {
